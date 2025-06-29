@@ -23,3 +23,24 @@ Aplicativo iOS desenvolvido com **UIKit**, que consome dados da **PokéAPI** par
 - URLSession ou [Alamofire](https://github.com/Alamofire/Alamofire) *(dependendo do que você usou)*
 
 ## 📦 Estrutura do Projeto
+
+PokemonApp/
+├── Models/
+│   └── Pokemon.swift                 # Modelo com as propriedades do Pokémon
+├── Views/
+│   └── PokemonCell.swift             # Célula personalizada para exibir cada Pokémon na lista
+├── ViewControllers/
+│   ├── PokemonListViewController.swift    # Tela principal com a lista de Pokémons
+│   └── PokemonDetailViewController.swift # Tela com os detalhes de cada Pokémon
+├── Services/
+│   └── APIService.swift              # Serviço responsável por consumir a PokéAPI
+└── Resources/
+    └── Assets.xcassets               # Recursos visuais como imagens e cores
+
+## 🚀 Como Rodar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/guilhermevon/App-Pokemon-Swift.git
+
+# by: @guilhermevon
