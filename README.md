@@ -20,7 +20,7 @@ Aplicativo iOS desenvolvido com **UIKit**, que consome dados da **PokéAPI** par
 - UIKit
 - ViewController padrão (programação sem Storyboard)
 - [PokéAPI](https://pokeapi.co/)
-- URLSession ou [Alamofire](https://github.com/Alamofire/Alamofire) *(dependendo do que você usou)*
+- URLSession ou [Alamofire](https://github.com/Alamofire/Alamofire)
 
 ## 📦 Estrutura do Projeto
 
